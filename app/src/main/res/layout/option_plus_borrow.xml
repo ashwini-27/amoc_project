@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+        <!--android:layout_weight="1"-->
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Select the date"
+                    android:textSize="25dp"
+
+                    />
+
+
+               <!-- replacing it with dialog <DatePicker
+                    android:id="@+id/datePicker"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />-->
+
+                <EditText
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/date"
+                    android:clickable="true"
+
+
+                    android:focusable="false"
+                    android:hint="deadlineDate"/>
+                <EditText
+
+                    android:id="@+id/amount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="amount"
+                    android:inputType="numberDecimal"
+                     />
+
+
+                <RadioButton
+
+                    android:id="@+id/checkedTextView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="did you borrowed this money" />
+
+                <EditText
+                    android:id="@+id/description"
+                    android:hint="add discription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="2.05" />
+
+                <EditText
+                    android:id="@+id/name"
+
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:hint="enter the name of person who paid your bill" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/update"
+                    android:id="@+id/updater"
+                    android:layout_gravity="center_horizontal"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+
+
+
+</FrameLayout>

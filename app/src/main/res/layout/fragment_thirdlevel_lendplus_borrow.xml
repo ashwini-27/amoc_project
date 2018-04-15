@@ -1,0 +1,79 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.my.new2pma.thirdlevel_lendplus_borrow">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <!--<DatePicker
+                android:id="@+id/datePicker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />-->
+            <EditText
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/date"
+                android:clickable="true"
+
+
+                android:focusable="false"
+                android:hint="deadlineDate"/>
+            <ToggleButton
+                android:id="@+id/toggleButton"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:layout_weight="0.10"
+                android:text="ToggleButton"
+                android:textOn="BORROW"
+                android:textOff="LEND"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:text="Select the date"
+                android:textSize="30sp"
+                />
+
+            <!-- i know some data will come twice because someone can add it twice once in a category and again in borrow section-->
+            <EditText
+                android:id="@+id/amount"
+
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:ems="10"
+                android:hint="amount"
+                android:inputType="numberDecimal" />
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:hint="enter the name of the person who gave/lended the money"/>
+
+            <EditText
+                android:id="@+id/description"
+                android:hint="description"
+                android:layout_width="match_parent"
+                android:layout_height="59dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/update"
+                android:id="@+id/updater"
+                android:layout_gravity="center_horizontal"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>
