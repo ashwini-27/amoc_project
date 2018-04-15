@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.Toast;
-
+//nfkngkelg
 public class Main3Activity extends AppCompatActivity {
 
     LinearLayout l1;
