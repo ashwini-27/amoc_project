@@ -1,0 +1,144 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Add Expense"
+                    android:textAlignment="center"
+                    android:textSize="25dp"
+
+                    />
+
+                <SurfaceView
+                    android:id="@+id/surfaceView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp" />
+
+
+                <!-- replacing it with dialog <DatePicker
+                     android:id="@+id/datePicker"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     />-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <EditText
+
+                        android:id="@+id/date"
+                        android:layout_width="139dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.44"
+
+
+                        android:clickable="true"
+                        android:focusable="false"
+                        android:hint="Date" />
+
+                    <EditText
+
+                        android:id="@+id/amount"
+                        android:layout_width="153dp"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="amount"
+                        android:inputType="numberDecimal" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/name"
+
+                        android:layout_width="169dp"
+                        android:layout_height="59dp"
+                        android:hint="who paid for you??" />
+
+                    <RadioButton
+
+                        android:id="@+id/borrowed"
+                        android:layout_width="161dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:text="it was borrowed" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:id="@+id/category"
+                        android:layout_height="match_parent" />
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="33dp"
+                    android:layout_gravity="center_horizontal"
+                    android:entries="@array/catogories"
+
+                    android:padding="40dp" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="2.05"
+
+                    android:hint="add discription" />
+
+                <Button
+                    android:id="@+id/add"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="ADD" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+</FrameLayout>

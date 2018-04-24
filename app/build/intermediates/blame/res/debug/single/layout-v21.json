@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Deep Mistry\\AndroidStudioProjects\\amoc_project-ashwini_1\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Deep Mistry\\.android\\build-cache\\3bf8c43f783964e9758ec49a8b2e447643d4bbaf\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\Deep Mistry\\AndroidStudioProjects\\amoc_project-ashwini_1\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Deep Mistry\\.android\\build-cache\\3bf8c43f783964e9758ec49a8b2e447643d4bbaf\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\Deep Mistry\\AndroidStudioProjects\\amoc_project-ashwini_1\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Deep Mistry\\.android\\build-cache\\3bf8c43f783964e9758ec49a8b2e447643d4bbaf\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Deep Mistry\\AndroidStudioProjects\\amoc_project-ashwini_1\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Deep Mistry\\.android\\build-cache\\3bf8c43f783964e9758ec49a8b2e447643d4bbaf\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    }
+]

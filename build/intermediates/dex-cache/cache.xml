@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Deep Mistry\AndroidStudioProjects\amoc_project-ashwini_1\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Deep Mistry\AndroidStudioProjects\amoc_project-ashwini_1\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_2dc135312dc75c2a9ee3a77f632fdeccfc72a79c\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Deep Mistry\AndroidStudioProjects\amoc_project-ashwini_1\app\libs\GraphView-4.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3626a38455159707e355da96a61e598fbbc049e9">
+        <dex dex="C:\Users\Deep Mistry\AndroidStudioProjects\amoc_project-ashwini_1\app\build\intermediates\pre-dexed\debug\GraphView-4.2.1_9551c03b085f01bf4e13e736db79f85a644df3d0.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Deep Mistry\AndroidStudioProjects\amoc_project-ashwini_1\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="63333ff37b1267b94b86267a43b2ea2ff608ac5f">
+        <dex dex="C:\Users\Deep Mistry\AndroidStudioProjects\amoc_project-ashwini_1\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_a59279301f8349b14ec60ee96b7899b4b60671ea\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Deep Mistry\AndroidStudioProjects\amoc_project-ashwini_1\app\libs\GraphView-4.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3626a38455159707e355da96a61e598fbbc049e9">
+        <dex dex="C:\Users\Deep Mistry\AndroidStudioProjects\amoc_project-ashwini_1\app\build\intermediates\transforms\dex\debug\folders\1000\2\GraphView-4.2.1_9551c03b085f01bf4e13e736db79f85a644df3d0\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Deep Mistry\.android\build-cache\d2c88ed49ab773d385812a1e115b238924c7cf30\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b303826d3a060b0e15c4f05b79f3866360aa7b50">
+        <dex dex="C:\Users\Deep Mistry\AndroidStudioProjects\amoc_project-ashwini_1\app\build\intermediates\pre-dexed\debug\classes_a1949b604ac322cd18f279fb961ce7d3c4ca4e1f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Deep Mistry\.gradle\caches\modules-2\files-2.1\com.android.support.constraint\constraint-layout-solver\1.1.0-beta5\9bc9e32d75211b9c4cea65617c9d6b217c1a264a\constraint-layout-solver-1.1.0-beta5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9bc9e32d75211b9c4cea65617c9d6b217c1a264a">
+        <dex dex="C:\Users\Deep Mistry\AndroidStudioProjects\amoc_project-ashwini_1\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.1.0-beta5_e017b7eba3a2206f61db57efadccbe2bd324539b.jar" />
+    </item>
+
+</items>
